@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the Excel file
-excel_file_path = 'A:/likitha/LIKI/EXCEL DATA BRAIN CANCER.xlsx'  # Replace with your Excel file path
+excel_file_path = 'EXCEL DATA BRAIN CANCER.xlsx'  # Replace with your Excel file path
 df = pd.read_excel(excel_file_path)
 
 @app.route('/', methods=['GET', 'POST'])
