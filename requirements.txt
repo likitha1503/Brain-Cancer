@@ -2,3 +2,8 @@
 Flask
 streamlit
 streamlit
+# requirements.txt
+Flask
+streamlit
+pandas
+openpyxl # <-- Ensure this line is present
